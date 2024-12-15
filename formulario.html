@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="grid grid-header">
+            <img class="logo" src="imgenes/logo.png" alt="">
+            <h1>Formulario</h1>
+            <img class="logo" src="imgenes/logo.png" alt="">
+            
+        </header>
+        <nav class="grid grid-nav">
+            <ul><a href="index.html">Inicio</a></ul>
+            <ul><a href="trek.html">TREK</a></ul>
+            <ul><a href="specialized.html">SPECIALIZER</a></ul>
+        </nav>
+
+        <main class="grid grid-main">
+            <section>
+                <p>llena este formulario y nos pondremos en contacto contigo lo mas pronto posible <br><br></p>
+            </section>
+            <form action="formulario.php">
+                <label for="nombre_de_usuario">Nombre:</label>
+                <input name="nombre_de_usuario" type="text" placeholder="Nombre" required>
+        
+                <label for="correo">Email:</label>
+                <input name="correo" type="email" placeholder="E-mail" required>
+        
+                <br><br>
+        
+                <label for="tel">Telefono:</label>
+                <input name="tel" type="tel" placeholder="numero" required>
+        
+                <br><br>
+        
+                <label for="marcas">Marca de bicicleta</label>
+                <select name="marca">
+                    <option value="" selected disabled hidden>Selecciona una opcion </option>
+                    <option value="trek">Trek</option>
+                    <option value="specialized">Specialized</option>
+                    <option value="otra">Otra</option>
+                </select>
+        
+                <br><br>
+        
+                <label for="comentarios">Que te gustaria saber:</label>
+                <br>
+                <textarea name="comentarios" rows="6" cols="50"></textarea>
+        
+                <br><br>
+        
+                <label for="genero">Genero</label>
+                <br>
+                <input type="radio" name="genero"> Masculino
+                <input type="radio" name="genero"> Femenino
+        
+                <br><br>
+        
+                <label for="terminos">Aceptas nuestros terminos y condiciones </label>
+                <br>
+                <input type="checkbox">Si
+        
+                <br><br>
+                <button type="submit">Enviar</button>
+        </main>
+
+        <footer class="grid grid-footer">
+            <p>Autor: Daniel Santamaria  <br>
+                Mi GitHub: <a href="https://github.com/Danielsasa">DANIELSASA</a></p>
+            </p>
+        </footer>
+    </div>
+    
+</body>
+</html>
