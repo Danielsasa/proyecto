@@ -39,8 +39,6 @@
 .grid-main{
     background-color: blanchedalmond;
     grid-area: main;
-    display: flex;
-    align-items: center;
 }
 
 .grid-footer{
@@ -73,6 +71,16 @@
 }
 
 .informacion2 img{
+    width: 100%;
+}
+
+.grid-main table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid rgb(59, 53, 59);
+}
+.grid-main table img{
     width: 100%;
 }
 
