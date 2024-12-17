@@ -41,12 +41,6 @@
     grid-area: main;
 }
 
-.grid-footer{
-    background-color: bisque;
-    display: flex;
-    align-items: center;
-    grid-area: footer;
-}
 .informacion1 h1{
     box-sizing: border-box;
     display: inline-block;
@@ -82,6 +76,12 @@
 }
 .grid-main table img{
     width: 100%;
+}
+
+.grid-footer{
+    background-color: bisque;
+    grid-area: footer;
+
 }
 
 /*responsive*/
