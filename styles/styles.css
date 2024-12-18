@@ -20,7 +20,7 @@
 
 
 .grid-header{
-    background-color: tan;
+    background-color: #2f4297;
     grid-area: header;
     display: flex;
     align-items: center;
@@ -39,21 +39,22 @@
 }
 
 .grid-nav{
-    background-color: rgb(201, 189, 161);
+    background-color: #4f87a3;
     grid-area: nav;
+
 }
 
 .grid-nav a{
     text-decoration: none;
-    color: rgba(133, 5, 5, 0.514);
+    color: rgba(255, 255, 255, 0.514);
 }
 
 .grid-nav a:hover{
-    color: rgb(53, 172, 17);
+    color: rgb(84, 70, 122);
 }
 
 .grid-main{
-    background-color: blanchedalmond;
+    background-color: #294d61;
     grid-area: main;
     font-family: "Ubuntu", serif;
   font-weight: 400;
@@ -105,9 +106,21 @@
 }
 
 .grid-footer{
-    background-color: bisque;
+    background-color: rgb(70, 109, 182);
     grid-area: footer;
+}
 
+.grid-footer p{
+    text-align: center;
+}
+
+.grid-footer a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.514);
+}
+
+.grid-footer a:hover{
+    color: rgb(84, 70, 122);
 }
 
 /*responsive*/
@@ -142,6 +155,13 @@
         font-family: "Ubuntu", serif;
         font-weight: 400;
         font-style: italic;
+    }
+
+    .grid-nav{
+        background-color: #4f87a3;
+        grid-area: nav;
+        position: sticky;
+        top: 0%;
     }
 
     }
