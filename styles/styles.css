@@ -26,7 +26,14 @@
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
+    
 }
+.grid-header h1{
+    font-family: "Ubuntu", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
 .grid-header img{
     width: 10%;
 }
@@ -36,15 +43,28 @@
     grid-area: nav;
 }
 
+.grid-nav a{
+    text-decoration: none;
+    color: rgba(133, 5, 5, 0.514);
+}
+
+.grid-nav a:hover{
+    color: rgb(53, 172, 17);
+}
+
 .grid-main{
     background-color: blanchedalmond;
     grid-area: main;
+    font-family: "Ubuntu", serif;
+  font-weight: 400;
+  font-style: italic;
 }
+
 
 .informacion1 h1{
     box-sizing: border-box;
     display: inline-block;
-    width: 100%;
+    width: 100%;    
 }
 
 .informacion1{
@@ -52,6 +72,9 @@
     display: inline-block;
     width: 50%;
     padding: 25px;
+    font-family: "Ubuntu", serif;
+    font-weight: 400;
+    font-style: italic;
 }
 .informacion1 img{
     width: 100%;
@@ -62,6 +85,9 @@
     display: inline-block;
     width: 49%;
     padding: 25px;
+    font-family: "Ubuntu", serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 .informacion2 img{
@@ -97,5 +123,26 @@
             "nav nav "
             "main main "
             "footer footer";
+
+    .informacion1{
+                box-sizing: border-box;
+                display: inline-block;
+                width: 100%;
+                padding: 25px;
+                font-family: "Ubuntu", serif;
+                font-weight: 400;
+                font-style: italic;
+    }
+
+    .informacion2{
+        box-sizing: border-box;
+        display: inline-block;
+        width: 100%;
+        padding: 25px;
+        font-family: "Ubuntu", serif;
+        font-weight: 400;
+        font-style: italic;
+    }
+
     }
 }
